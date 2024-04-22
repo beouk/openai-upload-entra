@@ -295,7 +295,7 @@ const Chat = () => {
                         <div className={styles.chatEmptyState}>
                             <img src="https://www.aicpa-cima.com/static/media/aicpa-cima-logo.2028af8b.svg" aria-hidden="true"></img>
                             <h1 className={styles.chatEmptyStateTitle}>Learning Question Generator</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>You can use this chat screen to generate questions</h2>
+                            <h2 className={styles.chatEmptyStateSubtitle}>Version 3.0</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
                         </div>
                     ) : (
